@@ -11,7 +11,7 @@ import br.com.gsc.addressAPI.model.Client;
  */
 public interface ClientService {
 
-    Iterable<Client> fetchAll();
+    Iterable<Client> findAll();
 
     Client findById(Long id);
 

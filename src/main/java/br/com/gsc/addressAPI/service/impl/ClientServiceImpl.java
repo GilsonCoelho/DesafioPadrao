@@ -30,7 +30,7 @@ public class ClientServiceImpl implements ClientService {
 
 
     @Override
-    public Iterable<Client> fetchAll() {
+    public Iterable<Client> findAll() {
         return clientRepository.findAll();
 
     }
